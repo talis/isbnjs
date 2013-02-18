@@ -6,12 +6,16 @@
   "homepage": "http://isbnjs.googlecode.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/coolaj86/isbnjs.git"
+    "url": "git://github.com/talis/isbnjs.git"
   },
   "main": "isbn.js",
   "engines": {
     "node": ">= 0.0.1"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "request": "~2.12.0",
+    "moment": "~2.0.0",
+    "xml2js": "~0.2.4"
+  }
 }
