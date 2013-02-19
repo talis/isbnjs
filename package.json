@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git://github.com/talis/isbnjs.git"
   },
-  "main": "isbn.js",
+  "main": "index.js",
   "engines": {
     "node": ">= 0.0.1"
   },
