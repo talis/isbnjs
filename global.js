@@ -1,9 +1,9 @@
-var isbn = require('isbn').ISBN;
+var isbn = require('./isbn').ISBN;
 
 var fs = require('fs');
 
 // Load full global groups
-var groupdata = JSON.parse(fs.readFileSync(require('path').resolve(__dirname, '/var/isbn-groups.json'),'utf8'));
+var groupdata = JSON.parse(fs.readFileSync(require('path').resolve(__dirname, 'var/isbn-groups.json'),'utf8'));
 isbn.GROUPS = groupdata.GROUPS;
 isbn.GROUPS_VERSION = groupdata.GROUPS_VERSION;
 
