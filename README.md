@@ -3,11 +3,10 @@ isbnjs
 
 An ISBN JavaScript Library
 
-    npm install isbn
+    npm install isbn git://github.com/talis/isbnjs.git#v0.1.3
 
-    ender build isbn
-
-    var ISBN = require('isbn').ISBN;
+    Use .global (rather than .ISBN) to load the full global ISBN ranges, otherwise most ISBNs will return undefined
+    var ISBN = require('isbn').global;
 
 Examples
 ====
